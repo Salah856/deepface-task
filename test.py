@@ -46,6 +46,7 @@ for img in images:
         output_file.write(img)
         output_file.write(', no detection')
         output_file.write('\n')
+        print(img, ', no detection -- failure')
 
     except AttributeError:
         output_file.write(img)
