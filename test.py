@@ -1,7 +1,7 @@
 from deepface import DeepFace
 import os
 
-path = input(' enter path:  ')
+path = input(' Enter path:  ')
 images = os.listdir(path)
 
 attributes = ['race']
