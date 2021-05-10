@@ -9,8 +9,8 @@ attributes = ['race']
 output_file = open('output.txt', 'a')
 
 for img in images:
-    print(img)
     try:
+        print(img)
         dct = DeepFace.analyze(f"{path}/{img}", attributes)
         asian = dct['race']['asian']
         indian = dct['race']['indian']
