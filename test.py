@@ -6,7 +6,7 @@ images = os.listdir(path)
 
 attributes = ['race']
 
-output_file = open('output6.txt', 'a')
+output_file = open('output.txt', 'a')
 
 for img in images:
     print(img)
